@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Inscription|Trotinette &eacute;lectrique.</title>
+        <abusaidm.html-snippets></abusaidm.html-snippets>
+        <link href='css/Trotinette.css' rel='stylesheet'>
+    </head>
+    
+<body>   
+
+    
+    <header>
+        <H1>TrotiShop</H1>
+
+        <h3><a href="./index.html">Accueil</a></h3>
+        <h3><a href="./Trotinette Profil.html">Profil</a></h3>
+        <h3><a href="./Trotinette Tarif-Avis.html">Tarif/Avis</a></h3>
+        <h3><a href="./Trotinette Inscription.html">Inscription</a></h3>
+    </header>
+
+    <main>
+        <form action="Trotinette Profil.html" method="POST">
+            <table class="formtable">
+                <tr>
+                    <th><label for="FamilyName">Nom:</label></th>
+                    <td><input type="text" name="FamilyName" id="FamilyName" required/></td>
+                </tr>
+                <tr>
+                    <th><label for="Name" >Pr&eacute;nom:</label></th>
+                    <td><input type="text" name="Name" id="Name" required/></td>
+                </tr>
+                <tr>
+                    <th><label for="Birthday">Date de naissance:</label></th>
+                    <td><input type="number" name="Day" id="Birthday" step="1" min="1" max="31" required/>
+                        <select id="month" name="month" required>
+                            <option value="janvier">Janvier</option>
+                            <option value="f&eacute;vrier">F&eacute;vrier</option>
+                            <option value="mars">Mars</option>
+                            <option value="avril">Avril</option>
+                            <option value="mai">Mai</option>
+                            <option value="juin">Juin</option>
+                            <option value="juillet">Juillet</option>
+                            <option value="ao&ucirc;t">Ao&ucirc;t</option>               
+                            <option value="septembre">Septembre</option>
+                            <option value="octobre">Octobre</option>
+                            <option value="novembre">Novembre</option>
+                            <option value="d&eacute;cembre">D&eacute;cembre</option>
+                    </select>
+                    
+                    <input type="number" name="ann&eacute;e" id="ann&eacute;e" min="1950" max="2021" required></td>
+                <tr>
+                    <th><label for="Num&eacute;ro">Num&eacute;ro de t&eacute;lephone:</label></th>
+                    <td><input type="number" name="Num&eacute;ro" id="Num&eacute;ro" required></td>
+                </tr>
+                <tr>
+                    <th><label for="email">Email:</label></th>
+                    <td><input type="text" name="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <th><label for="password">Mot de passe:</label></th>
+                    <td><input type="password" name="password" id="password" required></td>
+                </tr>
+                <tr>
+                    <th><label for="secure-password">Comfirmation du mot de passe:</label></th>
+                    <td><input type="password" name="secure-password" id="secure-password" required></td>
+                </tr>
+                <tr>
+                    <th><label for="CardNumber">Num&eacute;ro de carte bancaire:</label></th>
+                    <td><input type="text" name="CardNumber" id="CardNumber" maxlength="16"  pattern="[0-9]*"required ></td>
+                </tr>
+                <tr>
+                    <th><label for="CardExpiry">Date d&apos;&eacute;xpiration:</label></th>
+                    <td><input type="text" name="CardExpiry" id="CardExpiry" maxlength="3" pattern="[0-9]*"required></td>
+                </tr>
+                <tr id="submit">
+                    <th colspan ="2"><input type="submit" value="Envoyer"></th>
+                </tr>
+            </table>
+        </form>
+    </main>
+
+    <footer>
+        <p><strong>Vous pouvez nous contacter sur:</strong> dadzadad@hotmail.fr <br> <strong>Ou aux:</strong> 01######56</p>
+        <p><strong>O&ugrave; nous retrouver:</strong> Paris-Lyon-Toulouse-Nice-Marseille-Montpellier-Bordeaux</p>
+        <div class="social">
+            <a href="https://fr-fr.facebook.com/" target="_blank"><img class="fb" src="image/Facebook.png" weigth="30" height="30"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="image/twitter-logo.png" weigth="30" height="30"></a>
+            <a href="https://www.instagram.com/?hl=fr" target="_blank"><img src="image/instagram.png" weigth="30" height="30"></a>
+            <a href="https://www.snapchat.com/" target="_blank"><img src="image/snap.png" weigth="30" height="30"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="image/youtube.png" weigth="30" height="30"></a>
+        </div>
+    </footer>
+
+
+</body>
+</html>
